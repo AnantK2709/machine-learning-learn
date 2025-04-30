@@ -16,7 +16,7 @@ if __name__ == "__main__":
     results= []
     start_time = time.time()
     with multiprocessing.Pool() as pool:
-        results = pool.map(compute_factorial, numbers)
+        results = pool.map(compute_factorial, numbers) #Time taken: 0.21743392944335938 seconds
     # for i in numbers:
     #     results.append(compute_factorial(i)) Time taken: 0.06834101676940918 seconds
     end_time = time.time()
