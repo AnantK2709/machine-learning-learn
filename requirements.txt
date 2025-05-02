@@ -6,3 +6,5 @@ seaborn
 streamlit
 bs4
 flask
+ipykernel
+requests
